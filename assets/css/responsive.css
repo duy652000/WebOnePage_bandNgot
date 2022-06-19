@@ -1,0 +1,124 @@
+/* PC */
+@media (min-width: 1024px) {
+  
+}
+
+/* Tablet and Mobile */
+@media (max-width: 1023px) {
+    .places-ticket-btn,
+    .form-submit{
+        padding: 17px 16px !important;
+
+    }
+    #contact .contact-form{
+        line-height: 2.0;
+    }
+    #footer a{
+        margin-left: 16px;
+    }
+
+}
+
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width :1023px) {
+    
+}
+
+
+/* Mobile */
+@media (max-width: 739px) {
+
+    .s-mt-8{
+        margin-top: 8px !important ;
+    }
+
+    .mb-16{
+        margin-bottom: 16px !important;
+    }
+
+    .s-full-width{
+        width: 100% !important;
+    }
+
+
+    #header #search{
+        display: none;
+    }
+
+    #header #menu-bar-mobile {
+        display: block;
+      
+    }
+    #header{
+        overflow: hidden;
+    }
+    #slider .text-content{
+        display: none;
+    }
+    
+    #nav {
+        display: block;
+    }
+    #nav>li{
+        display:block;
+        
+    }
+    #nav li a {
+       
+        display: block;
+    }
+   
+    #nav li:first-child{
+    display: inline-block;
+    }
+    #nav .subnav{
+        position:initial;
+        background-color: #ccc;
+        color: #fff;
+        padding-left: 23px;
+        
+    }
+    #nav .subnav a{
+        padding: 13px 16px;
+    }
+    #content .s-col-full{
+        width: 100%; 
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    
+    #tour .s-col-full{
+        width: 100%;
+    }
+    #content-section .places-ticket-btn{
+        padding: 13px 16px ;
+    }
+   
+
+    #content-section .form-contact {
+        display: block;
+    }
+
+   
+    .contact-form .form-control{
+        padding: 12px;
+    }
+    #content-section .contact-form{
+        font-size: 18px;
+        padding: 32px 0px;
+
+    }
+    #content-section .form-submit{
+        padding: 12px 16px;
+        border: 1px solid;
+    }
+
+   
+
+   
+
+   
+}
